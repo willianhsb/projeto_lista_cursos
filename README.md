@@ -1,4 +1,4 @@
-# minha primeira tela
+# projeto_lista_cursos
 
 Nesse projeto utilizamos os seguintes Widgets:
 
@@ -54,8 +54,8 @@ chamando da seguinte forma, diretamente no widget Text() :
                        ),
 
 7 - LinearProgressIndicator();
-        - barra que indica o progresso das tarefas;
-        - parametros que iremos alterar: cor para branco e valor recebendo o nivel / 10; 
+             - barra que indica o progresso das tarefas;
+             - parametros que iremos alterar: cor para branco e valor recebendo o nivel / 10; 
 
 8 - Widget Image()
         - Dividido em 3 tipos:
@@ -85,8 +85,12 @@ chamando da seguinte forma, diretamente no widget Text() :
 11 - Refatoração:
 
 1 - Dividir os arquivos para cada responsabilidade: 
+
         - disponibilizar o Theme e usar o MaterialApp = main.dart ;
+        
         - desenhar a tela do app = home.dart ;
-        - gerencia de estados = Task(); remover as Task e Tela da main.dart
-        - logica = Dificuldade ; remover a dificuldade da main.dart
+        
+        - gerencia de estados = Task() (remover as Task e Tela da main.dart)
+        
+        - logica = Dificuldade (remover a dificuldade da main.dart)
         
